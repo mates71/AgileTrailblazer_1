@@ -12,6 +12,10 @@ formatter.feature({
     }
   ]
 });
+formatter.before({
+  "duration": 126591,
+  "status": "passed"
+});
 formatter.background({
   "line": 4,
   "name": "",
@@ -24,9 +28,12 @@ formatter.step({
   "name": "user on the home page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "Stepdefination.user_on_the_home_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 1858066337,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 10,
@@ -66,29 +73,61 @@ formatter.step({
   "name": "close the driver",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Stepdefination.user_enter_name_and_email()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 150467753,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Stepdefination.user_choose_a_subject()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 83617655,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Stepdefination.user_enter_a_message()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 87068712,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefination.user_click_submit_button()"
+});
+formatter.result({
+  "duration": 2069756619,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Your message was sent successfully. Thanks.",
+      "offset": 25
+    }
+  ],
+  "location": "Stepdefination.user_should_able_to_see(String)"
+});
+formatter.result({
+  "duration": 34594708,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefination.close_the_driver()"
+});
+formatter.result({
+  "duration": 70529209,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 88790,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 26943,
+  "status": "passed"
 });
 formatter.background({
   "line": 4,
@@ -102,9 +141,12 @@ formatter.step({
   "name": "user on the home page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "Stepdefination.user_on_the_home_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 1092129028,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 20,
@@ -144,28 +186,56 @@ formatter.step({
   "name": "close the driver",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Stepdefination.user_enter_name_and_email()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 152169687,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Stepdefination.user_choose_a_subject()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 82805106,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Stepdefination.user_does_not_enter_a_message()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 37207390,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefination.user_click_submit_button()"
+});
+formatter.result({
+  "duration": 2073435391,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Validation errors occurred. Please confirm the fields and submit it again.",
+      "offset": 39
+    }
+  ],
+  "location": "Stepdefination.user_should_able_to_see_error_message(String)"
+});
+formatter.result({
+  "duration": 29259313,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Stepdefination.close_the_driver()"
+});
+formatter.result({
+  "duration": 70945291,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 23009,
+  "status": "passed"
 });
 });
